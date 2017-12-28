@@ -1,7 +1,11 @@
 .section-about{
     background-color: $color-grey-light-1;
-    padding: 25rem 0;
-    margin-top: -20vh //95vh - 75vh(header height - polygon height) 
+    padding: 20.833rem 0;
+    margin-top: -20vh; //95vh - 75vh(header height - polygon height) 
+
+    @include respond(tab-port){
+        padding: 15.667rem 0;
+    }
 }
 
 .section-features{
@@ -18,21 +22,41 @@
     & > *{
         transform: skewY(7deg);
     }
+
+    @include respond(tab-port){
+        padding: 15.667rem 0;
+    }
+
 }
 
 .section-tours{
     background-color: $color-grey-light-1;
     padding: 25rem 0 12.5rem 0;
     margin-top:-10rem;  
+
+    @include respond(tab-port){
+        padding: 14.667rem 0 5rem 0;
+    }
+
 }
 
 .section-stories{
     position: relative;
     padding:12.5rem 0;
+
+    @include respond(tab-port){
+        padding: 15.667rem 0 5rem 0;
+    }
+
 }
 
 .section-book{
     padding:12.5rem 0;
     background-image: linear-gradient(to right bottom, $color-fourth-light, $color-fourth-dark);
+
+    @include respond(tab-port){
+        padding: 15.667rem 0 5rem 0;
+    }
+
 }
 
