@@ -12,6 +12,10 @@
 
     transition: all .3s;
 
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+
+
     &__content{
 
         @include absCenter;

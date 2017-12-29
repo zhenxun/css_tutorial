@@ -33,3 +33,7 @@ body{
 	}
 
 }
+
+::selection{
+	background-color: $color-fourth-light;
+}
