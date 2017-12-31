@@ -1,0 +1,51 @@
+.user-nav{
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & > *{
+        padding: 0 1.66667rem;
+        cursor: pointer;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        
+
+        &:hover{
+            background-color: $color-grey-light-2;
+        }
+    }
+
+    &__icon-box{
+        position: relative; 
+    }
+
+    &__icon{
+        height: 1.875rem;
+        width: 1.875rem;
+        fill: $color-grey-dark-2;
+        
+    }
+
+    &__notification{
+        font-size: .6667rem;
+        background-color: $color-primary;
+        color: $color-white;
+        border-radius: 50%;
+        width: 1.45833rem;
+        height: 1.45833rem;
+        position: absolute;
+        top:1.25rem;
+        right:.83334rem;
+        text-align: center;
+    }
+
+    &__user-photo{
+        height: 3.125rem;
+        border-radius: 50%;
+        margin-right: .8334rem;
+    
+    }
+
+}

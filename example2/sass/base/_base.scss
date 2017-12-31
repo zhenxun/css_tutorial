@@ -1,0 +1,34 @@
+
+//css custome properties
+:root{
+    --margin-reset:0;
+    --padding-reset:0;
+    --shadow-dark:0 2rem 6rem rgba(0,0,0,.3);
+}
+// end css custome properties
+
+*,
+*::after,
+*::before{
+
+    margin:var(--margin-reset);
+    padding:var(--padding-reset);
+    box-sizing: inherit;
+}
+
+html{
+    font-size:12px; // 1rem = 12px 
+}
+
+body{
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color:$color-grey-dark-2;
+    line-height: 1.6;
+    background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+}

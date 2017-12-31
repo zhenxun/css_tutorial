@@ -5,5 +5,15 @@
 @import "abstracts/variables";
 
 //base
+@import "base/base";
 @import "base/utilities";
+
+//components
+@import "components/header-logo";
+@import "components/header-search";
+@import "components/header-user-nav";
+@import "components/side-nav";
+
+//layout
+@import "layout/layout";
 
